@@ -1,0 +1,44 @@
+body { /* CSS for body*/
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header { /* CSS for header*/
+    background-color: #007acc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main { /* CSS for the main part*/
+    padding: 20px;
+}
+
+h1 { /* CSS for h1*/
+    color: #ffffff ;
+}
+h2, h3 { /* CSS for h2, h3*/
+    color: #0056b3;
+}
+
+ul { /* CSS for ul*/
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+pre { /* CSS for preformated text*/
+    background-color: #e6f0ff;
+    padding: 8px;
+    font-size: 0.85em; /* Compact font size */
+    border-radius: 5px;
+}
+
+footer { /* CSS for footer*/
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} 
