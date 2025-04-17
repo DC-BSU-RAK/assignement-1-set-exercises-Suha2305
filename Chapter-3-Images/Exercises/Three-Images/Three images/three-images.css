@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+body {
+    font-family: 'Quicksand', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7e4a4a; /* Light pink for a makeup theme */
+    text-align: center;
+}
+ 
+.container {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white; /* White box for content */
+    border: 2px solid #78252f; /* Matches the header's bold pink */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Creates depth with shadow */
+}
+
+header {
+    background-color: #78252f; /* Bold pink */
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px 10px 0 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds depth to header text */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+img {
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds shadow to images */
+    filter: sepia(30%); /* Applies a sepia filter for a warm tone */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+}
+
+img:hover {
+    filter: none; /* Removes filter on hover */
+}
+
+footer {
+    background-color: #78252f;
+    color: white;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3); /* Creates depth for footer */
+}
