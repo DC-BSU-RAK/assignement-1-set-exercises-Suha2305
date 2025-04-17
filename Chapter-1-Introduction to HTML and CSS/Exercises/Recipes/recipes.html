@@ -1,68 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strawberry Cheesecake Recipe</title>
-    <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="styles.css">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cheesecake Recipe</title> <!-- Tile of the web page-->
+  <link rel="stylesheet" href="styles.css"> <!-- Linking the external stylesheet to this web page-->
 </head>
 <body>
+     <!-- Opening the Container -->
+  <div class="container"> <!-- Opening a div with the 'container' class to apply CSS styles from external stylesheet -->
+    <h1>🍰 Creamy Cheesecake Recipe 🍰</h1> <!-- Giving h1 for bigger heading-->
 
-    <!-- Recipe title -->
-    <header>
-        <h1>Strawberry Cheesecake</h1>
-    </header>
+    <!-- Description of the recipe -->
+    <p><i>Try this creamy cheesecake in a crunchy graham cracker crust that’s 
+        beyond delicious. Getting the perfect no-crack bake is easier than you 
+        think, and you don’t need a water bath!</i></p> <!-- Using paragraph and italics for a cleaner look-->
 
-    <!-- Main Content --> 
-     <!-- this divsion is to group all the ingredients together-->
-    <div class="framework"> <!-- naming the div as framework for easier identification in css-->
-        <!-- Description for the recipe -->
-        <p>Try this creamy cheesecake in a crunchy graham cracker crust that’s beyond delicious. Getting the perfect no-crack bake is easier than you think, and you don’t need a water bath!</p> <!-- using p for paragraph-->
-        
-        <!-- Ingredients -->
-        <h2>Ingredients</h2> <!-- using h2 for a bigger ssub heading-->
-        <ul> <!-- using an unordered list-->
-        <h3> For the Crust: </h3>
-            <li>1½ cups graham cracker crumbs</li>
-            <li>¼ cup unsalted butter, melted</li>   
-            <li>2 tablespoons granulated sugar</li>
-        <h3> For the Filling: </h3>
-            <li>3 (8-ounce) blocks cream cheese, room temperature</li>
-            <li>1 cup granulated sugar</li>
-            <li>¼ teaspoon salt</li>
-            <li>2 teaspoons vanilla extract</li>
-            <li>1 teaspoon lemon juice</li>
-            <li>3 large eggs, room temperature</li>
-            <li>½ cup sour cream, room temperature</li>
+    <!-- Opening 2 division tags in the Ingredients Section -->
+    <div class="ingredients-section"> <!-- Opening a div with the 'ingredients-section' class to apply CSS styles from external stylesheet -->
+      <div class="ingredients"><!-- Opening a div with the 'ingredients' class to apply CSS styles from external stylesheet -->
+        <!-- using h2, h3, lists(li), unordered lists(ul) and bold(b) 
+         for an oraganised look and feel-->
+        <h2>Ingredients</h2>
+        <h3>For the Crust:</h3>
+        <ul>
+          <li><b>1½ cups</b> graham cracker crumbs (180g)</li>
+          <li><b>¼ cup</b> unsalted butter, melted</li>
+          <li><b>2 tablespoons</b> granulated sugar</li>
         </ul>
+        <h3>For the Filling:</h3>
+        <ul>
+          <li><b>3 blocks</b> cream cheese, room temperature (8-ounce each/227g)</li>
+          <li><b>1 cup</b> granulated sugar (200g)</li>
+          <li><b>¼ teaspoon</b> salt</li>
+          <li><b>2 teaspoons</b> vanilla extract (10mL)</li>
+          <li><b>1 teaspoon</b> lemon juice</li>
+          <li><b>3 large eggs</b>, room temperature</li>
+          <li><b>½ cup</b> sour cream, room temperature (120g)</li>
+        </ul>
+      </div> <!-- Closing the ingredients div-->
+      
+      <!-- Opening tag in image section -->
+      <div class="image-container"> <!-- Opening a div with the 'image-container' class to apply CSS styles from external stylesheet -->
+        <img src="cheesecake.jpg" alt="Delicious Cheesecake" class="recipe-image"> <!-- displays the image -->
+      </div><!-- Closing the image div-->
+    </div> <!-- Closing the ingredients div -->
 
-        <!-- Instructions for baking-->
-        <h2>Instructions</h2>
-        <ol>
-         <h3> For the Crust: </h3> <!-- using h3 for subheadings  -->
-            <li>Preheat the oven to 350°F (175°C).</li>
-            <li>Combine graham cracker crumbs, melted butter, and sugar in a bowl and press into a springform pan.</li>
-            <li>Bake for 10 minutes and let cool.</li>
-        <h3> For the Filling: </h3> <!-- using h3 for subheadings  -->
-            <li>Beat cream cheese, sugar, salt, vanilla, and lemon juice until smooth.</li>
-            <li>Add eggs one at a time, mixing well. Finally, mix in sour cream.</li>
-            <li>Pour the filling into the crust and bake for 15 minutes. Reduce temperature to 300°F and bake for another 30–35 minutes.</li>
-            <li>Turn off the oven and leave cheesecake inside for 1 hour. Cool at room temperature, then chill for at least 6 hours before serving.</li>
-        </ol>
-    </div>
-
-    <!-- Social Media Links -->
-    <div class="social-media">
-        <a href="https://www.instagram.com" target="_blank">📸</a>
-        <a href="https://www.facebook.com" target="_blank">📘</a>
-        <a href="https://www.youtube.com" target="_blank">🎥</a>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>Made with ❤ by Suha</p>
-    </footer>
-
+    <!-- Instructions Section -->
+     <!-- using h2, h3, lists(li) and ordered lists(ol)
+         for an oraganised look and feel-->
+    <h2>Instructions</h2>
+    <h3>For the Crust:</h3>
+    <ol>
+      <li>Preheat the oven to 350°F.</li>
+      <li>In a medium bowl, combine cracker crumbs, melted butter, and sugar. Stir until it feels like wet sand.</li>
+      <li>Press mixture into a 9-inch springform pan.</li>
+      <li>Bake for 10 minutes. Let it cool.</li>
+    </ol>
+    <h3>For the Filling:</h3>
+    <ol>
+      <li>Beat cream cheese in a large mixing bowl until creamy.</li>
+      <li>Add sugar, salt, vanilla, and lemon juice. Mix until smooth.</li>
+      <li>Add eggs one at a time, mixing after each addition.</li>
+      <li>Mix in sour cream until well combined.</li>
+      <li>Pour filling into crust. Bake at 300°F for 30-35 minutes, then cool and refrigerate for 6 hours.</li>
+    </ol>
+    <!-- Nutrition Section -->
+      <!-- using h2, lists(li) and unordered lists(ul) and bold(b)
+         for an oraganised look and feel-->
+    <h2>Nutrition</h2>
+    <p><i>Per Serving:</i></p> 
+    <ul>
+      <li><b>Calories:</b> 388 kcal</li>
+      <li><b>Carbs:</b> 30 g</li>
+      <li><b>Protein:</b> 6 g</li>
+      <li><b>Fat:</b> 27 g</li>
+      <li><b>Sugar:</b> 24 g</li>
+    </ul>
+  </div> <!-- Closing the container -->
 </body>
 </html>

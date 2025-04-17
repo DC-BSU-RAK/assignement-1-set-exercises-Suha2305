@@ -1,89 +1,86 @@
-/* Basic styling for the entire page */
+/* General Body Style */
 body {
-    font-family: Arial, sans-serif;
+    background: url('cheesecake.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensures the image fills the screen */
     margin: 0;
     padding: 0;
-    background-color: #fbe4e4; /* Light pinkish-beige background */
-    color: #5e3737; /* Dark brown text */
-    display: flex; /* Enables Flexbox for centering */
-    justify-content: center; /* Horizontally centers the box */
-    align-items: center; /* Vertically centers the box */
-    height: 100vh; /* Ensures the box is vertically centered */
-}
-
-/* Styling for the entire content box (framework) */
-.framework {
-    background-color: #fff; /* White background for content */
-    padding: 40px; /* Adds space inside the box */
-    border: 3px solid #d99f9f; /* Adds a strawberry pink border */
-    border-radius: 15px; /* Rounded corners for elegance */
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Shadow for depth */
-    width: 60%; /* Makes the box narrower for better readability */
-}
-
-/* Styling for the header section */
-header {
-    text-align: center; /* Centers the header text */
-    background-color: #d99f9f; /* Strawberry pink background */
+  }
+  
+  /* Blurred Background */
+  body::before { 
+    content: ""; /* Creates a pseudo-element */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit; /* Uses the same background image */
+    filter: blur(8px); /* Applies the blur effect only to the background */
+    z-index: -1; /* Places it behind everything else */
+  }
+  
+  /* Container Styling */
+  .container {
+    background-color: rgba(255, 245, 247, 0.95); /* Light pink */
+    color: #d21f3c; /* Dark pink/red text */
+    border: 2px solid #d21f3c; /* Adds a subtle border */
     padding: 20px;
-    color: white; /* White text */
-    border-bottom: 3px solid #8c4040; /* Adds a darker border under the header */
-}
-
-/* Styling for headings */
-h1, h2 {
-    color: #8c4040; /* Muted reddish-brown text */
-    font-weight: bold; /* Makes headings bold */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adds subtle shadow to text */
-}
-
-/* Styling for subheadings */
-h3 {
-    color: #5e3737; /* Dark brown for subheadings */
-    font-style: italic; /* Makes subheadings italic */
-}
-
-/* Styling for paragraphs */
-p {
-    font-style: italic; /* Makes paragraph text italicized */
-    margin-bottom: 20px; /* Adds spacing below paragraphs */
-}
-
-/* Styling for unordered and ordered lists */
-ul, ol {
-    margin: 20px;
-    padding: 10px;
-    border: 2px solid #ccc; /* Light gray border for lists */
-    border-radius: 10px; /* Rounded edges */
-    background-color: #fff; /* White background */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for lists */
-}
-
-/* Styling for social media links */
-.social-media {
-    text-align: center; /* Centers the icons */
-    margin-top: 20px;
-}
-
-.social-media a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: white; /* White icons */
-    font-size: 24px;
-    background-color: #d99f9f; /* Strawberry pink background */
-    padding: 10px;
-    border-radius: 50%; /* Circular icons */
-    display: inline-block;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for depth */
-}
-
-/* Styling for the footer */
-footer {
-    text-align: center; /* Centers footer text */
-    background-color: #5e3737; /* Deep brown background */
-    color: white; /* White text */
-    padding: 10px 0;
-    margin-top: 20px;
-    border-top: 3px solid #8c4040; /* Adds a darker border above the footer */
-    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.3); /* Shadow to lift the footer */
-}
+    margin: 40px auto;
+    max-width: 800px;
+    border-radius: 15px; /* Rounded corners */
+    position: relative;
+  }
+  
+  /* Title and Headings */
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #b91d33; /* Darker pink for the title */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  }
+  
+  h2, h3 {
+    color: #b91d33; /* Dark pink for subheadings */
+    text-decoration: underline; /* Underlining h2 and h3 */
+  }
+  
+  /* Paragraph */
+  p {
+    font-style: italic; /* Italicized description for emphasis */
+    text-align: center;
+  }
+  
+  /* Ingredients Section and Image Styling */
+  .ingredients-section {
+    display: flex; /* Arranges ingredients and image side by side */
+    justify-content: space-between; /* Spaces them evenly */
+    align-items: flex-start; /* Aligns elements at the top */
+    margin: 20px 0;
+  }
+  
+  .ingredients {
+    width: 60%; /* Ingredients take up 60% of the container width */
+  }
+  
+  .image-container {
+    width: 35%; /* Image takes up 35% of the container width */
+    text-align: right; /* Aligns the image to the right */
+  }
+  
+  .recipe-image {
+    width: 100%; /* Makes the image fit in its container */
+    border: 5px solid #d21f3c; /* Adds a cute pink border */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+  }
+  
+  /* Lists */
+  ul, ol {
+    margin: 20px 40px; /* Adds spacing */
+    line-height: 1.6; /* Space between lines */
+  }
+  
+  li {
+    font-size: 1.1em; /* Slightly larger text for list items */
+  }
+  
