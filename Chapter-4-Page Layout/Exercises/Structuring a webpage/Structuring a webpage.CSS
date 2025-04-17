@@ -1,0 +1,96 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text for visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    width: 95%; /* Increased width */
+    max-width: 1000px; /* Larger box size */
+    background-color: #ffffff; /* White background for the box */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures content doesn't spill out */
+    color: #000000; /* Black text inside the box */
+}
+
+/* Header Styling */
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    gap: 20px;
+    padding: 30px; /* Added padding for spacious layout */
+}
+
+section {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Welcome Section */
+h2 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.images img {
+    width: 48%;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px; /* Adjusted for larger footer */
+}
