@@ -1,0 +1,111 @@
+/* General body styling */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Adds a fun font */
+    background-color: #FFE4E1; /* Soft pastel pink background */
+    color: #333; /* Dark gray text for readability */
+    margin: 0; /* Removes default margin */
+}
+
+/* Header styling */
+header {
+    background-color: #FFB6C1; /* Light pink header background */
+    color: white; /* White text */
+    text-align: center; /* Centers header text */
+    padding: 20px; /* Adds spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Displays items inline */
+    justify-content: center; /* Centers items horizontally */
+    gap: 15px; /* Adds space between items */
+    padding: 0; /* Removes padding */
+}
+
+nav a {
+    text-decoration: none; /* Removes underline */
+    color: white; /* Keeps links white */
+    font-weight: bold; /* Makes links bold */
+}
+
+nav a:hover {
+    color: #FDFD96; /* Light yellow on hover for kawaii effect */
+}
+
+/* Main heading styling */
+.main-heading {
+    font-size: 36px; /* Large font size */
+    color: #FF69B4; /* Bright pink text color */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Main content section */
+main {
+    display: flex; /* Layout for multiple columns */
+    justify-content: space-around; /* Adds space around columns */
+    margin: 20px; /* Adds outer margin */
+    padding: 20px; /* Adds inner spacing */
+}
+
+/* Column styling */
+.column {
+    background-color: #FFFACD; /* Pastel yellow background */
+    padding: 20px; /* Adds spacing inside */
+    border-radius: 8px; /* Rounded corners for a soft look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 30%; /* Sets column width */
+}
+
+/* List item styling */
+ul li {
+    font-size: 18px; /* Larger font size */
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+/* Footer styling */
+footer {
+    background-color: #FFDAB9; /* Peach background */
+    color: white; /* White text */
+    text-align: center; /* Centers footer content */
+    padding: 15px; /* Adds spacing */
+}
+
+/* Button styling */
+footer button {
+    background-color: #FF69B4; /* Bright pink button background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adds spacing inside */
+    border: none; /* Removes border */
+    border-radius: 20px; /* Rounded edges for kawaii look */
+    cursor: pointer; /* Changes cursor to pointer */
+    font-size: 16px; /* Adjusts font size */
+    transition: background-color 0.3s; /* Adds smooth hover effect */
+}
+
+footer button:hover {
+    background-color: #FDFD96; /* Changes to pastel yellow on hover */
+}
+/* Wireframe section styling */
+.wireframe {
+    text-align: center; /* Centers the content */
+    margin: 20px; /* Adds space around the section */
+    padding: 20px; /* Adds spacing inside the section */
+    background-color: #FFB6C1; /* Soft pink background */
+    border-radius: 8px; /* Rounded corners for a cute look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.wireframe h2 {
+    font-size: 24px; /* Larger font size for the heading */
+    color: #FF69B4; /* Bright pink text color */
+    margin-bottom: 15px; /* Adds space below the heading */
+}
+
+.wireframe-image {
+    max-width: 80%; /* Ensures the image doesn’t exceed the section width */
+    height: auto; /* Maintains the original aspect ratio */
+    border-radius: 5px; /* Adds slight rounding to the image corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds shadow effect to the image */
+}
