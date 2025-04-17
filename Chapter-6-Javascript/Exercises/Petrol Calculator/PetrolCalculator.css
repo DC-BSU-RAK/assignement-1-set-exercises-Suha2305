@@ -4,9 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #485158; /* Light blue background for the page */
-    background-image: url('petrol.jpg'); /* Optional: Add a background image */
-    background-size: cover; /* Ensures the image covers the page */
+    background-color: #485158; 
     margin: 0;
 }
 
@@ -24,7 +22,7 @@ body {
 /* New heading styling */
 .main-heading {
     font-size: 28px;
-    color: #d8d8ff; /* Tomato color for a bold effect */
+    color: #d8d8ff; 
     margin-bottom: 20px;
     text-transform: uppercase; /* Capitalize all letters */
     font-weight: bold;
